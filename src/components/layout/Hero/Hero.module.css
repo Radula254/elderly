@@ -1,0 +1,113 @@
+.hero {
+  background-image: url("/home1.webp");
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  font-family: 'Spartan', sans-serif;
+  color: #fff;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.hero h1 {
+  color: rgb(211, 219, 198);
+}
+
+.hero .button {
+  background-image: url("/heroButton.png");
+  background-color: transparent;
+  color: #080101;
+  border: 0;
+  width: auto;
+  padding: 14px 80px 14px 65px;
+  background-repeat: no-repeat;
+  border-width: 3px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.hero h4 span {
+  color: #1845c1;
+}
+
+.hero p {
+  font-size: 16px;
+  color: #465b52;
+  margin: 15px 0 20px 0;
+  text-align: center;
+}
+
+.about,
+.services,
+.cta,
+.testimonials,
+.footer {
+  padding: 60px 80px;
+  text-align: center;
+}
+
+.about h2,
+.services h2,
+.cta h2,
+.testimonials h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about p,
+.services .serviceItem p,
+.testimonials .testimonialItem p,
+.footerContent p {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+}
+
+.services .serviceItem {
+  width: 30%;
+}
+
+.cta .button {
+  margin: 20px 10px;
+  padding: 14px 40px;
+}
+
+.testimonials .testimonialItem {
+  margin: 20px 0;
+}
+
+.footer {
+  background-color: #f4f4f4;
+}
+
+.footerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footerContent .socialMedia {
+  margin-top: 20px;
+}
+
+.footerContent .socialMedia a {
+  margin: 0 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.footerContent .socialMedia a:hover {
+  text-decoration: underline;
+}
